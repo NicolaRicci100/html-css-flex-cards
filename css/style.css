@@ -31,3 +31,29 @@ h1{
 }
 
 /* impostazioni body */
+
+.row{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    width: calc(100% / 3 - 20px);
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    color: white;
+}
+.description{
+    display: inline-block;
+    line-height: 30px;
+    margin: 10px 10px;
+}
+
+a{
+    color: var(--blue);
+    text-decoration: none;
+}
